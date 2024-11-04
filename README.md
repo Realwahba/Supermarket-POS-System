@@ -87,17 +87,17 @@ __Usage__
 
 Here are some screenshots of the Supermarket POS System:
 
-- **Main Interface**  
-  ![Main Interface](screenshots/main_interface.png)
-  
-  - **Main Interface 2**  
-  ![Main Interface](screenshots/main_interface2.png)
+### - Main Interface
+![Main Interface](https://i.imgur.com/yqtezSP.png)
 
-- **Login Page**  
-  ![Login Page](screenshots/login_page.png)
+### - Main Interface 2
+![Main Interface 2](https://imgur.com/5kSXMIH.png)
 
-- **Registration Page**  
-  ![Registration Page](screenshots/registration_page.png)
+### - Login Page
+![Login Page](https://i.imgur.com/3ZVwn55.png)
+
+### - Registration Page
+![Registration Page](https://i.imgur.com/HULQha8.png)
 
   **Dependencies**
   
