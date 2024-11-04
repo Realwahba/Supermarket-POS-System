@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermarket POS System</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        // Check if the user is logged in
+        async function checkSession() {
+            const response = await fetch('/auth/check-session');
+            const data = await response.json();
+            
+            if (!data.loggedIn) {
+                // Redirect to the login page if not logged in
+                window.location.href = "login.html";
+            }
+        }
+
+        // Run session check when the page loads
+        window.onload = checkSession;
+    </script>
+</head>
+
+<body>
+    <h1>Supermarket Cashier System</h1>
+
+    <!-- Navigation Tabs -->
+    <div class="tabs">
+        <button onclick="showSection('cashierSection')" class="tab active">Cashier</button>
+        <button onclick="showSection('productsSection')" class="tab">Products</button>
+    </div>
+
+    <!-- Cashier Section -->
+    <div id="cashierSection">
+        <section>
+            <h2>Scan Product</h2>
+            <input type="text" id="barcodeInput" placeholder="Enter Barcode">
+            <button id="scanButton">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 15h-2v-6h2zm0-8h-2V7h2z"/></svg>
+                Scan Product
+            </button>
+            <div id="productResult"></div>
+        </section>
+
+        <section>
+            <h2>Apply Discount</h2>
+            <input type="text" id="discountInput" placeholder="Enter Discount Code">
+            <button id="discountButton">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 15h-2v-6h2zm0-8h-2V7h2z"/></svg>
+                Apply Discount
+            </button>
+            <div id="discountResult"></div>
+        </section>
+
+        <section>
+            <h2>Checkout</h2>
+            <button id="checkoutButton">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 15h-2v-6h2zm0-8h-2V7h2z"/></svg>
+                Complete Checkout
+            </button>
+            <div id="checkoutResult"></div>
+        </section>
+    </div>
+
+    <!-- Products Section -->
+    <div id="productsSection" style="display: none;">
+        <section>
+            <h2>All Products</h2>
+            <div id="productList">Loading products...</div>
+        </section>
+
+        <section>
+            <h2>Add New Product</h2>
+            <input type="text" id="productName" placeholder="Product Name">
+            <input type="number" id="productPrice" placeholder="Price">
+            <input type="number" id="productStock" placeholder="Stock Quantity">
+            <input type="text" id="productBarcode" placeholder="Barcode">
+            <button id="addProductButton">Add Product</button>
+            <div id="addProductResult"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="/js/pos.js"></script> <!-- Link to pos.js file here -->
+</body>
+</html>
