@@ -117,7 +117,7 @@ Simply replace yourusername in the clone command with your GitHub username, and 
 
 © Wahba 2024. All rights reserved.
 
-Permission is hereby granted to any person obtaining a copy of this software and associated documentation files (the "Software"), to use, copy, modify, merge, publish, and distribute copies of the Software, subject to the following conditions:
+Permission is hereby granted to any person obtaining a copy of this software and associated documentation files (the Supermarket POS System), to use, copy, modify, merge, publish, and distribute copies of the Software, subject to the following conditions:
 
 1. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 2. The Software is provided "as is," without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Software or the use or other dealings in the Software.
