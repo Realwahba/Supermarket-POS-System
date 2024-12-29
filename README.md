@@ -62,7 +62,7 @@ supermarket-pos/
 1. __Installation__
 
 Clone the repository:
-git clone https://github.com/yourusername/supermarket-pos.git
+git clone https://github.com/Realwahba/supermarket-pos-system.git
 cd supermarket-pos
 
 2. __Install dependencies:__
