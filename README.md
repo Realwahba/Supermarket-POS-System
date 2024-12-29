@@ -110,9 +110,6 @@ __License__
 
 This project is licensed under the MIT License.
 
-Simply replace yourusername in the clone command with your GitHub username, and it’s ready to go. Let me know if you need further customization!
-
-
   ### License
 
 © Wahba 2024. All rights reserved.
