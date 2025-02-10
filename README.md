@@ -66,19 +66,19 @@ Visit `http://localhost:3000` and witness the magic! ✨
 Take a peek at what you're getting into:
 
 ### 🏪 Main POS Interface
-![Main Interface](https://imgur.com/yqtezSP)
+![Main Interface](https://i.imgur.com/yqtezSP.png)
 *Where the magic happens - sleek, clean, and ready for action!*
 
 ### 🎯 Transaction View
-![Main Interface 2](https://imgur.com/5kSXMIH)
+![Main Interface 2](https://imgur.com/5kSXMIH.png)
 *Watch those items add up (in a good way)*
 
 ### 🔐 Login Portal
-![Login Page](https://imgur.com/3ZVwn55)
+![Login Page](https://i.imgur.com/3ZVwn55.png)
 *Fort Knox-level security meets user-friendly design*
 
 ### ✍️ Registration Page
-![Registration Page](https://imgur.com/HULQha8)
+![Registration Page](https://i.imgur.com/HULQha8.png)
 *Join the club - it's where all the cool cashiers hang out*
 
 ## 🤝 Tech Stack Buddies
